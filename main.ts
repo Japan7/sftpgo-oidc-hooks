@@ -11,7 +11,7 @@ app.post("/prelogin", async (c) => {
 
     const username = payload.username;
     const groups = payload.oidc_custom_fields.groups.map((g: string) => ({
-      name: g.slice(1).replace("discord-", ""),
+      name: g.replace("discord-", ""),
       type: 2,
     }));
 
