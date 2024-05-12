@@ -1,5 +1,5 @@
-import { logger } from "https://deno.land/x/hono@v4.3.4/middleware.ts";
-import { Hono } from "https://deno.land/x/hono@v4.3.4/mod.ts";
+import { logger } from "https://deno.land/x/hono@v4.3.5/middleware.ts";
+import { Hono } from "https://deno.land/x/hono@v4.3.5/mod.ts";
 
 const app = new Hono();
 
